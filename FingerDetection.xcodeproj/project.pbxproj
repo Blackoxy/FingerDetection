@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		BD8AC7CD26FD01CB009DC660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AC7CC26FD01CB009DC660 /* AppDelegate.swift */; };
 		BD8AC7CF26FD01CB009DC660 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AC7CE26FD01CB009DC660 /* SceneDelegate.swift */; };
-		BD8AC7D126FD01CB009DC660 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AC7D026FD01CB009DC660 /* ViewController.swift */; };
-		BD8AC7D426FD01CB009DC660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8AC7D226FD01CB009DC660 /* Main.storyboard */; };
 		BD8AC7D626FD01CC009DC660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8AC7D526FD01CC009DC660 /* Assets.xcassets */; };
 		BD8AC7D926FD01CC009DC660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8AC7D726FD01CC009DC660 /* LaunchScreen.storyboard */; };
 		BD8AC7E426FD01CC009DC660 /* FingerDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AC7E326FD01CC009DC660 /* FingerDetectionTests.swift */; };
 		BD8AC7EF26FD01CD009DC660 /* FingerDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AC7EE26FD01CD009DC660 /* FingerDetectionUITests.swift */; };
+		BD8AC7FD26FD01E9009DC660 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AC7FC26FD01E8009DC660 /* CameraViewController.swift */; };
+		BD8AC80126FD01F9009DC660 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AC80026FD01F9009DC660 /* CameraPreview.swift */; };
+		BD8AC80526FD081F009DC660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8AC80426FD081F009DC660 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,6 @@
 		BD8AC7C926FD01CB009DC660 /* FingerDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8AC7CC26FD01CB009DC660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD8AC7CE26FD01CB009DC660 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BD8AC7D026FD01CB009DC660 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BD8AC7D326FD01CB009DC660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD8AC7D526FD01CC009DC660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD8AC7D826FD01CC009DC660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD8AC7DA26FD01CC009DC660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		BD8AC7EA26FD01CD009DC660 /* FingerDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8AC7EE26FD01CD009DC660 /* FingerDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerDetectionUITests.swift; sourceTree = "<group>"; };
 		BD8AC7F026FD01CD009DC660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD8AC7FC26FD01E8009DC660 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ../../../Downloads/Vision_Body_Detection_Materials/starter/StarCount/CameraViewController.swift; sourceTree = "<group>"; };
+		BD8AC80026FD01F9009DC660 /* CameraPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraPreview.swift; path = ../../../Downloads/Vision_Body_Detection_Materials/starter/StarCount/CameraPreview.swift; sourceTree = "<group>"; };
+		BD8AC80426FD081F009DC660 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +103,10 @@
 			children = (
 				BD8AC7CC26FD01CB009DC660 /* AppDelegate.swift */,
 				BD8AC7CE26FD01CB009DC660 /* SceneDelegate.swift */,
-				BD8AC7D026FD01CB009DC660 /* ViewController.swift */,
-				BD8AC7D226FD01CB009DC660 /* Main.storyboard */,
+				BD8AC7FC26FD01E8009DC660 /* CameraViewController.swift */,
+				BD8AC80026FD01F9009DC660 /* CameraPreview.swift */,
 				BD8AC7D526FD01CC009DC660 /* Assets.xcassets */,
+				BD8AC80426FD081F009DC660 /* Main.storyboard */,
 				BD8AC7D726FD01CC009DC660 /* LaunchScreen.storyboard */,
 				BD8AC7DA26FD01CC009DC660 /* Info.plist */,
 			);
@@ -231,9 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8AC80526FD081F009DC660 /* Main.storyboard in Resources */,
 				BD8AC7D926FD01CC009DC660 /* LaunchScreen.storyboard in Resources */,
 				BD8AC7D626FD01CC009DC660 /* Assets.xcassets in Resources */,
-				BD8AC7D426FD01CB009DC660 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD8AC7D126FD01CB009DC660 /* ViewController.swift in Sources */,
+				BD8AC7FD26FD01E9009DC660 /* CameraViewController.swift in Sources */,
 				BD8AC7CD26FD01CB009DC660 /* AppDelegate.swift in Sources */,
+				BD8AC80126FD01F9009DC660 /* CameraPreview.swift in Sources */,
 				BD8AC7CF26FD01CB009DC660 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +300,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BD8AC7D226FD01CB009DC660 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD8AC7D326FD01CB009DC660 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BD8AC7D726FD01CC009DC660 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
